@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm list *)",
+      "Bash(node -e \"import\\('./dist/server.js'\\).catch\\(e => console.log\\('import test:', e.message\\)\\)\")",
+      "mcp__vonage-reports__sms_weekly_report",
+      "mcp__vonage-reports__voice_call_lookup",
+      "Bash(npm run *)",
+      "WebSearch",
+      "WebFetch(domain:support.anthropic.com)",
+      "WebFetch(domain:support.claude.com)",
+      "WebFetch(domain:claude.com)",
+      "mcp__vonage-tooling-official__get-records-report",
+      "mcp__55d98748-a34d-4b61-83d7-ce3695b75eaf__vonage_api_reference",
+      "Bash(npm install *)"
+    ]
+  }
+}
